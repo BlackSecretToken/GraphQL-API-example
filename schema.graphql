@@ -1,7 +1,5 @@
-type Query {
-   greeting:String
-}
-
-type Mutation {
-   createStudent(collegeId:ID,firstName:String,lastName:String):String
+type Query
+{
+   greeting: String
+   sayHello(name:String!):String
 }
